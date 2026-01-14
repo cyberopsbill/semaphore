@@ -1,6 +1,6 @@
 ---
 - name: Update apt cache and dist-upgrade all homelab hosts
-  hosts: all
+  hosts: lxc
   become: true
   gather_facts: false
 
