@@ -1,5 +1,5 @@
 ---
-- hosts: servers
+- hosts: all
   become: true
   tasks:
    - name: Update all packages to their latest version
